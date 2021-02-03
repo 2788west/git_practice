@@ -1,0 +1,36 @@
+{
+  "data": {
+    "carbon_intensity": {
+      "data": {
+        "generated_rate": 814.7586877149781,
+        "marginal_rate": 1362.1715386468754
+      },
+      "meta": {
+        "emission_factors": "EGRID_2016",
+        "source": "interpolated from latest raw data",
+        "unit": "lbs/MWh"
+      },
+      "start_date": "2020-01-29T17:00:00+00:00"
+    },
+    "forecast.carbon_intensity": [
+      {
+        "data": {
+          "forecast_horizon_in_minutes": 5,
+          "generated_rate": 815.3349244898733
+        },
+        "dedup_key": "PJM:forecast.carbon_intensity:5I:2020-01-29T17:05:00+00:00",
+        "event_type": "forecast.carbon_intensity",
+        "meta": {
+          "forecast_horizon_in_minutes": 5,
+          "inserted_at": "2020-01-29T18:13:03.320850Z",
+          "raw_start_date": "2020-01-29T17:05:00+00:00",
+          "source": "forecast.generated_fuel_mix:PJM:5I:2020-01-29T17:05:00+00:00",
+          "unit": "lbs/MWh"
+        },
+        "region": "PJM",
+        "start_date": "2020-01-29T17:05:00+00:00"
+      },
+      ...
+    ]
+  }
+}
